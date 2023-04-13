@@ -18,7 +18,7 @@ public class Utility {
 
 
 	public static void captureScreenShot(WebDriver driver) throws InterruptedException, IOException{
-		 for(int i = 1; i<6; i++)
+		 for(int i = 1; i<7; i++)
 			{
 	    	  Date d = new Date();
 	          String FileName = d.toString().replace(":", "_");//.replace(" ", "_") ;
