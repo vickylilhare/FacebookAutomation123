@@ -19,6 +19,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 import Utils.Utility;
 import page.ForgotPassPage;
 import page.LoginPage;
@@ -27,13 +31,19 @@ public class verifyForgotPassWordPage {
 	WebDriver driver;
 	LoginPage loginPage;
 	ForgotPassPage forgotPassPage;
-	
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;
 	
 	
 
 @Parameters("browser")
 @BeforeTest
 public void operaBrowse(String browserName) {
+	
+	reporter = new ExtentHtmlReporter("test-output/ExtendReport/Extent.html");
+	ExtentReports extend = new ExtentReports();
+	extend.attachReporter(reporter);
+	
 	System.out.println("Before test");
 	if(browserName.equals("Chrome"))
 	{
