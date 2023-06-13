@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
+<testng-results ignored="0" total="9" passed="4" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-03T09:34:15 IST" name="Suite" finished-at="2023-05-03T09:34:42 IST" duration-ms="26127">
+  <suite started-at="2023-05-16T13:10:02 IST" name="Suite" finished-at="2023-05-16T13:10:26 IST" duration-ms="23772">
     <groups>
     </groups>
-    <test started-at="2023-05-03T09:34:15 IST" name="EdgeTest" finished-at="2023-05-03T09:34:21 IST" duration-ms="5401">
+    <test started-at="2023-05-16T13:10:02 IST" name="EdgeTest" finished-at="2023-05-16T13:10:05 IST" duration-ms="3031">
       <class name="testng.verifyForgotPassWordPage">
-        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:15 IST" name="operaBrowse" finished-at="2023-05-03T09:34:20 IST" duration-ms="5099" status="FAIL">
+        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:02 IST" name="operaBrowse" finished-at="2023-05-16T13:10:05 IST" duration-ms="2968" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -17,18 +17,16 @@
           </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
@@ -46,7 +44,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
-at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:71)
+at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,29 +70,27 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- operaBrowse -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661026" status="SKIP">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="beforeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805542" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661042" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805547" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="test1" finished-at="2023-05-03T09:34:21 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="test1" finished-at="2023-05-16T13:10:05 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
@@ -112,7 +108,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
-at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:71)
+at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,29 +134,27 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661145" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805554" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661153" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805562" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="test2" finished-at="2023-05-03T09:34:21 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="test2" finished-at="2023-05-16T13:10:05 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
@@ -178,7 +172,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
-at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:71)
+at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -204,29 +198,27 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661175" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805565" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661184" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805567" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="test3" finished-at="2023-05-03T09:34:21 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="test3" finished-at="2023-05-16T13:10:05 IST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: MicrosoftEdge=112.0.1722.68)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 111
+Current browser version is 113.0.1774.42 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.edge.EdgeDriver
@@ -244,7 +236,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
 at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
-at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:71)
+at testng.verifyForgotPassWordPage.operaBrowse(verifyForgotPassWordPage.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -270,90 +262,27 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661196" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805573" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661203" status="SKIP">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805579" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:21 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086661261" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:05 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222805581" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-03T09:34:42 IST" name="aftersuite" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683086682019" status="SKIP">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testng.verifyForgotPassWordPage@55183b20]" started-at="2023-05-16T13:10:26 IST" name="aftersuite" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222826337" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite -->
       </class> <!-- testng.verifyForgotPassWordPage -->
     </test> <!-- EdgeTest -->
-    <test started-at="2023-05-03T09:34:15 IST" name="ChromeTest" finished-at="2023-05-03T09:34:39 IST" duration-ms="23961">
+    <test started-at="2023-05-16T13:10:02 IST" name="FirefoxTest" finished-at="2023-05-16T13:10:23 IST" duration-ms="20721">
       <class name="testng.verifyForgotPassWordPage">
-        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:15 IST" name="operaBrowse" finished-at="2023-05-03T09:34:19 IST" duration-ms="3131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- operaBrowse -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:19 IST" name="beforeclass" finished-at="2023-05-03T09:34:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:19 IST" name="beforeMethod" finished-at="2023-05-03T09:34:24 IST" duration-ms="5011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:24 IST" name="test1" finished-at="2023-05-03T09:34:35 IST" duration-ms="10871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:35 IST" name="afterMethod" finished-at="2023-05-03T09:34:35 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:35 IST" name="beforeMethod" finished-at="2023-05-03T09:34:36 IST" duration-ms="1838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:36 IST" name="test2" finished-at="2023-05-03T09:34:36 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:36 IST" name="afterMethod" finished-at="2023-05-03T09:34:36 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:36 IST" name="beforeMethod" finished-at="2023-05-03T09:34:38 IST" duration-ms="1954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:38 IST" name="test3" finished-at="2023-05-03T09:34:39 IST" duration-ms="458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:39 IST" name="afterMethod" finished-at="2023-05-03T09:34:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:39 IST" name="afterclass" finished-at="2023-05-03T09:34:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-03T09:34:39 IST" name="afterTest" finished-at="2023-05-03T09:34:39 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testng.verifyForgotPassWordPage -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2023-05-03T09:34:15 IST" name="FirefoxTest" finished-at="2023-05-03T09:34:42 IST" duration-ms="26127">
-      <class name="testng.verifyForgotPassWordPage">
-        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:15 IST" name="operaBrowse" finished-at="2023-05-03T09:34:21 IST" duration-ms="5917" status="PASS">
+        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:02 IST" name="operaBrowse" finished-at="2023-05-16T13:10:07 IST" duration-ms="4808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -364,55 +293,280 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- operaBrowse -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:21 IST" name="beforeclass" finished-at="2023-05-03T09:34:21 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:07 IST" name="beforeclass" finished-at="2023-05-16T13:10:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:21 IST" name="beforeMethod" finished-at="2023-05-03T09:34:26 IST" duration-ms="4308" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:07 IST" name="beforeMethod" finished-at="2023-05-16T13:10:12 IST" duration-ms="4809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:26 IST" name="test1" finished-at="2023-05-03T09:34:36 IST" duration-ms="10809" status="PASS">
+        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:12 IST" name="test1" finished-at="2023-05-16T13:10:23 IST" duration-ms="10917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:36 IST" name="afterMethod" finished-at="2023-05-03T09:34:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="afterMethod" finished-at="2023-05-16T13:10:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:36 IST" name="beforeMethod" finished-at="2023-05-03T09:34:38 IST" duration-ms="1781" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="beforeMethod" finished-at="2023-05-16T13:10:23 IST" duration-ms="137" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+at testng.verifyForgotPassWordPage.beforeMethod(verifyForgotPassWordPage.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:38 IST" name="test2" finished-at="2023-05-03T09:34:38 IST" duration-ms="59" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="test2" finished-at="2023-05-16T13:10:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+at testng.verifyForgotPassWordPage.beforeMethod(verifyForgotPassWordPage.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:38 IST" name="afterMethod" finished-at="2023-05-03T09:34:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222823256" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:38 IST" name="beforeMethod" finished-at="2023-05-03T09:34:40 IST" duration-ms="1707" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222823259" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:40 IST" name="test3" finished-at="2023-05-03T09:34:40 IST" duration-ms="328" status="PASS">
+        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="test3" finished-at="2023-05-16T13:10:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'VICKY', ip: '192.168.43.217', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7a7ee57b-8250-4f4c-8de8-15588a947a4e, get {url=https://www.facebook.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:debuggerAddress: 127.0.0.1:53961, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14180, moz:profile: C:\Users\vicky\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53961/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7ee57b-8250-4f4c-8de8-15588a947a4e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+at testng.verifyForgotPassWordPage.beforeMethod(verifyForgotPassWordPage.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:40 IST" name="afterMethod" finished-at="2023-05-03T09:34:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222823266" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:40 IST" name="afterclass" finished-at="2023-05-03T09:34:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222823267" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@1a482e36]" started-at="2023-05-03T09:34:40 IST" name="afterTest" finished-at="2023-05-03T09:34:42 IST" duration-ms="1195" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@67c27493]" started-at="2023-05-16T13:10:23 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684222823270" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testng.verifyForgotPassWordPage -->
     </test> <!-- FirefoxTest -->
+    <test started-at="2023-05-16T13:10:02 IST" name="ChromeTest" finished-at="2023-05-16T13:10:26 IST" duration-ms="23772">
+      <class name="testng.verifyForgotPassWordPage">
+        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:02 IST" name="operaBrowse" finished-at="2023-05-16T13:10:05 IST" duration-ms="2635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operaBrowse -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:05 IST" name="beforeclass" finished-at="2023-05-16T13:10:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:05 IST" name="beforeMethod" finished-at="2023-05-16T13:10:10 IST" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:10 IST" name="test1" finished-at="2023-05-16T13:10:21 IST" duration-ms="10960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:21 IST" name="afterMethod" finished-at="2023-05-16T13:10:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:21 IST" name="beforeMethod" finished-at="2023-05-16T13:10:23 IST" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:23 IST" name="test2" finished-at="2023-05-16T13:10:23 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:23 IST" name="afterMethod" finished-at="2023-05-16T13:10:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:23 IST" name="beforeMethod" finished-at="2023-05-16T13:10:25 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:25 IST" name="test3" finished-at="2023-05-16T13:10:26 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:26 IST" name="afterMethod" finished-at="2023-05-16T13:10:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:26 IST" name="afterclass" finished-at="2023-05-16T13:10:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@4fb61f4a]" started-at="2023-05-16T13:10:26 IST" name="afterTest" finished-at="2023-05-16T13:10:26 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.verifyForgotPassWordPage -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

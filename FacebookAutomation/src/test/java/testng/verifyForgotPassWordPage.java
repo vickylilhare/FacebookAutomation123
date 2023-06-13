@@ -48,13 +48,12 @@ public void operaBrowse(String browserName) {
 	if(browserName.equals("Chrome"))
 	{
 		
-		
-		System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chromedriver_win32\\chromedriver.exe");
-				       
-				ChromeOptions ops =new ChromeOptions();
-				ops.addArguments("--remote-allow-origins=*");
-			 
-				 driver = new ChromeDriver(ops);
+System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chromedriver_win32\\chromedriver.exe");
+	    
+		ChromeOptions ops =new ChromeOptions();
+		ops.addArguments("--remote-allow-origins=*");
+	 
+		 driver = new ChromeDriver(ops);
     }
 	if(browserName.equals("Firefox"))
 	{

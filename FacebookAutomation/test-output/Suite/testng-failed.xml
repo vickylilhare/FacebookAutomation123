@@ -23,4 +23,22 @@
       </class> <!-- testng.verifyForgotPassWordPage -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
+  <test thread-count="3" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testng.verifyForgotPassWordPage">
+        <methods>
+          <include name="test3"/>
+          <include name="operaBrowse"/>
+          <include name="afterMethod"/>
+          <include name="afterclass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="aftersuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- testng.verifyForgotPassWordPage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
