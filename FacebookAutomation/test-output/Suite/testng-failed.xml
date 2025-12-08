@@ -30,6 +30,7 @@
         <methods>
           <include name="test3"/>
           <include name="operaBrowse"/>
+          <include name="test1"/>
           <include name="afterMethod"/>
           <include name="afterclass"/>
           <include name="afterTest"/>
@@ -41,4 +42,23 @@
       </class> <!-- testng.verifyForgotPassWordPage -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="3" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testng.verifyForgotPassWordPage">
+        <methods>
+          <include name="test3"/>
+          <include name="operaBrowse"/>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+          <include name="afterclass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="test2"/>
+          <include name="aftersuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- testng.verifyForgotPassWordPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

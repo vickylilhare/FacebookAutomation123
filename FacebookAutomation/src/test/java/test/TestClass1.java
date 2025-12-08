@@ -17,7 +17,7 @@ public class TestClass1 {
 		
 		 
 
-			System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\vicky\\\\OneDrive\\\\Documents\\\\chrome driver\\\\chromedriver-win32\\\\chromedriver-win32\\\\chromedriver.exe");
 			
 			ChromeOptions ops =new ChromeOptions();
 			ops.addArguments("--remote-allow-origins=*");
@@ -41,45 +41,9 @@ public class TestClass1 {
 		      creatAcc.sendSurname();
 		      creatAcc.selectDay();
 		      
-		     
-		      
-		      
-		      
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
+	
 		 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

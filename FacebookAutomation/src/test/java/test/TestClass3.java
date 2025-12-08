@@ -36,43 +36,10 @@ public class TestClass3 {
 		//forgotPassPage.searchButtonclick();
 		//forgotPassPage.cancelButtonClick();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

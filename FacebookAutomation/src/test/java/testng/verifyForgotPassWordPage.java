@@ -26,8 +26,9 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import Utils.Utility;
 import page.ForgotPassPage;
 import page.LoginPage;
+import BrowserSetUp.Base;
 
-public class verifyForgotPassWordPage {
+public class verifyForgotPassWordPage extends Base {
 	WebDriver driver;
 	LoginPage loginPage;
 	ForgotPassPage forgotPassPage;
@@ -48,26 +49,38 @@ public void operaBrowse(String browserName) {
 	if(browserName.equals("Chrome"))
 	{
 		
-System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chromedriver_win32\\chromedriver.exe");
-	    
-		ChromeOptions ops =new ChromeOptions();
-		ops.addArguments("--remote-allow-origins=*");
-	 
-		 driver = new ChromeDriver(ops);
+		driver = Base.openchrombrowser();
+		
+		
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vicky\\OneDrive\\Documents\\chrome driver\\chromedriver-win32 (1)\\chromedriver-win32\\chromedriver.exe");
+//		//driver = new ChromeDriver();
+//		//System.setProperty("webdriver.chrome.driver","user.dir");
+//
+//		
+////System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chromedriver_win32\\chromedriver.exe");
+//	    
+//		ChromeOptions ops =new ChromeOptions();
+//		ops.addArguments("--remote-allow-origins=*");
+//	 
+//		 driver = new ChromeDriver(ops);
     }
 	if(browserName.equals("Firefox"))
 	{
+		
+//		driver = Base.openfirebox();
 
-		System.setProperty("webdriver.gecko.driver", "C:\\vicky\\selenium library\\geckodriver-v0.32.2-win32\\geckodriver.exe");
-		driver = new FirefoxDriver();
+//		System.setProperty("webdriver.gecko.driver", "C:\\vicky\\selenium library\\geckodriver-v0.32.2-win32\\geckodriver.exe");
+//		driver = new FirefoxDriver();
 		 
     }
 	
 	if(browserName.equals("Edge"))
 	{
 
-		System.setProperty("webdriver.edge.driver", "C:\\vicky\\selenium library\\edgedriver_win64\\msedgedriver.exe");
-		driver = new EdgeDriver();
+//		driver = Base.openedge();
+		
+//		System.setProperty("webdriver.edge.driver", "C:\\vicky\\selenium library\\edgedriver_win64\\msedgedriver.exe");
+//		driver = new EdgeDriver();
 		 
     }
 	
@@ -79,6 +92,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\vicky\\selenium library\\chro
 	
 
 	
+
 @BeforeClass
 public void beforeclass() {
 	System.out.println("before class");

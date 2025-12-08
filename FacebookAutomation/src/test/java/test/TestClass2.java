@@ -20,10 +20,7 @@ public class TestClass2 {
 	WebDriver driver = new ChromeDriver(ops);
 	
       driver.get("https://www.facebook.com");
-      
-	
-	
-	
+     
       LoginPage loginPage = new LoginPage(driver);
       loginPage.creatUserAcc();
       Thread.sleep(3000);
@@ -33,14 +30,7 @@ public class TestClass2 {
       creatAcc.sendSurname();
       creatAcc.selectDay();
       
-      
-      
-      
-	
-	
-	
-	
-	
+     
 	
 	
 	}	
