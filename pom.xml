@@ -71,7 +71,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-                            src/test/resources/testngregression.xml
+                            testngregression.xml
                         </suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
