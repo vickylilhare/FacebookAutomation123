@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-03T09:42:24 IST" name="Suite" finished-at="2026-02-03T09:43:01 IST" duration-ms="37626">
+    <groups>
+    </groups>
+    <test started-at="2026-02-03T09:42:24 IST" name="ChromeTest" finished-at="2026-02-03T09:43:01 IST" duration-ms="37626">
+      <class name="testng.verifyForgotPassWordPage">
+        <test-method is-config="true" signature="operaBrowse(java.lang.String)[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:24 IST" name="operaBrowse" finished-at="2026-02-03T09:42:26 IST" duration-ms="2686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operaBrowse -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:27 IST" name="beforeclass" finished-at="2026-02-03T09:42:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:27 IST" name="beforeMethod" finished-at="2026-02-03T09:42:46 IST" duration-ms="19138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:46 IST" name="test1" finished-at="2026-02-03T09:42:57 IST" duration-ms="11312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:57 IST" name="afterMethod" finished-at="2026-02-03T09:42:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:57 IST" name="beforeMethod" finished-at="2026-02-03T09:42:59 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:59 IST" name="test2" finished-at="2026-02-03T09:42:59 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:59 IST" name="afterMethod" finished-at="2026-02-03T09:42:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:42:59 IST" name="beforeMethod" finished-at="2026-02-03T09:43:01 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:43:01 IST" name="test3" finished-at="2026-02-03T09:43:01 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:43:01 IST" name="afterMethod" finished-at="2026-02-03T09:43:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:43:01 IST" name="afterclass" finished-at="2026-02-03T09:43:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:43:01 IST" name="afterTest" finished-at="2026-02-03T09:43:01 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testng.verifyForgotPassWordPage@4a94ee4]" started-at="2026-02-03T09:43:01 IST" name="aftersuite" finished-at="2026-02-03T09:43:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testng.verifyForgotPassWordPage -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
